@@ -82,6 +82,9 @@ on post-fs
     chown system log /sys/fs/pstore/console-ramoops-0
     chmod 0440 /sys/fs/pstore/console-ramoops-0
 
+    start qseecomd
+    exec - root root root -- /vendor/bin/init.qti.qseecomd.sh
+
     # Initialize IPA for rmnet
     write /dev/ipa 1
 
@@ -271,7 +274,7 @@ on property:init.svc.per_mgr=running
 on property:sys.shutdown.requested=*
     stop per_proxy
 
-service qseecomd /system/bin/qseecomd
+service qseecomd /vendor/bin/qseecomd
    class core
    user root
    group root
