@@ -1079,7 +1079,7 @@
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia11" value="1" />
     </path>
 <!-- #ifdef VENDOR_EDIT -->
-<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->
+<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->	
     <path name="compress-offload-playback4 quat_i2s">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia11" value="1" />
     </path>
@@ -1213,7 +1213,7 @@
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia13" value="1" />
     </path>
 <!-- #ifdef VENDOR_EDIT -->
-<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->
+<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->	
     <path name="compress-offload-playback6 quat_i2s">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia13" value="1" />
     </path>
@@ -1345,7 +1345,7 @@
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia15" value="1" />
     </path>
 <!-- #ifdef VENDOR_EDIT -->
-<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->
+<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->	
     <path name="compress-offload-playback8 quat_i2s">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia15" value="1" />
     </path>
@@ -1869,7 +1869,7 @@
         <ctl name="VoiceMMode2_Tx Mixer SLIM_0_TX_MMode2" value="1" />
     </path>
 <!-- #ifdef VENDOR_EDIT -->
-<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->
+<!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->	
     <path name="voicemmode2-call quat_i2s">
         <ctl name="VOC_EXT_EC MUX" value="QUAT_MI2S_TX" />
         <ctl name="QUAT_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
